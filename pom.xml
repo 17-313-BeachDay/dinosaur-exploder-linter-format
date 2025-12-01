@@ -129,6 +129,12 @@
                     <mainClassName>${mainClassJProName}</mainClassName>
                 </configuration>
             </plugin>
+            <!-- Checkstyle linter for static analysis checks -->
+            <plugin>
+                <groupId>com.puppycrawl.tools</groupId>
+                <artifactId>checkstyle</artifactId>
+                <version>12.1.2</version>
+            </plugin>
         </plugins>
     </build>
 </project>
